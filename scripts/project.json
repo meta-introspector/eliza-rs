@@ -1,0 +1,254 @@
+{
+  "greetings": [
+    "Hello! Ready to manage tasks with some emoji flair? 📚🔗",
+    "Hi there! What's the next task you want to tackle? 🚧",
+    "Welcome to the task manager! How can we organize your project today? 🦀"
+  ],
+  "farewells": [
+    "Thanks for planning with me! Let's keep those tasks moving. 🚀",
+    "Great session! Ready to sync these tasks to your Kanban? 📋",
+    "Goodbye for now. Excited to see your project progress! 🖼️",
+    "That was productive! Let’s pick this up next time. 🦀",
+    "Time to wrap up. Want to visualize these tasks in the dashboard? 🖥️"
+  ],
+  "fallbacks": [
+    "Hmm, I’m not sure I caught that task. Can you clarify? 📝",
+    "That’s an interesting input! Tell me more about your project. 🔍",
+    "Not quite clear on that. Is this about a task or an issue? 🤔",
+    "Let’s dive deeper. What task are you thinking of? 🚧",
+    "Sounds intriguing! Can you describe the task or goal? 📊",
+    "I’m listening! What’s the next step for your project? 🛠️",
+    "Does this relate to your tasks or ontology? Let’s explore. 📚"
+  ],
+  "transforms": [
+    { "word": "dont", "equivalents": ["don't", "do not"] },
+    { "word": "cant", "equivalents": ["can't", "cannot"] },
+    { "word": "wont", "equivalents": ["won't", "will not"] },
+    { "word": "task", "equivalents": ["tasks", "issue", "issues"] },
+    { "word": "emoji", "equivalents": ["emojis", "icon", "icons"] },
+    { "word": "cache", "equivalents": ["caching", "cached"] },
+    { "word": "dashboard", "equivalents": ["interface", "ui"] },
+    { "word": "kanban", "equivalents": ["board", "project board"] },
+    { "word": "ontology", "equivalents": ["schema", "knowledge graph"] },
+    { "word": "vectorize", "equivalents": ["vectorization", "embedding"] }
+  ],
+  "synonyms": [
+    { "word": "task", "equivalents": ["issue", "job", "work", "activity"] },
+    { "word": "emoji", "equivalents": ["icon", "symbol", "emoticon"] },
+    { "word": "cache", "equivalents": ["store", "buffer", "memory"] },
+    { "word": "dashboard", "equivalents": ["ui", "interface", "visualization"] },
+    { "word": "kanban", "equivalents": ["board", "workflow", "tracker"] },
+    { "word": "ontology", "equivalents": ["schema", "taxonomy", "knowledge graph"] },
+    { "word": "vector", "equivalents": ["embedding", "representation", "feature"] },
+    { "word": "llm", "equivalents": ["model", "ai", "language model"] },
+    { "word": "rust", "equivalents": ["code", "programming", "language"] },
+    { "word": "github", "equivalents": ["repo", "repository", "project"] }
+  ],
+  "reflections": [
+    { "word": "my task", "inverse": "your task", "twoway": true },
+    { "word": "i want", "inverse": "you want", "twoway": true },
+    { "word": "my project", "inverse": "your project", "twoway": true },
+    { "word": "i am working", "inverse": "you are working", "twoway": false },
+    { "word": "my issue", "inverse": "your issue", "twoway": true },
+    { "word": "i need", "inverse": "you need", "twoway": true },
+    { "word": "my dashboard", "inverse": "your dashboard", "twoway": true },
+    { "word": "i coded", "inverse": "you coded", "twoway": false }
+  ],
+  "keywords": [
+    {
+      "key": "task",
+      "rank": 10,
+      "rules": [
+        {
+          "memorise": true,
+          "decomposition_rule": "(.*)task (.+)",
+          "reassembly_rules": [
+            "Tell me more about the task: $2. 📝",
+            "What’s the status of $2? 🚧",
+            "Does $2 need emoji tagging? 😊",
+            "How does $2 fit into your project? 📋",
+            "Is $2 a priority task? ⭐"
+          ]
+        },
+        {
+          "memorise": false,
+          "decomposition_rule": "(.*)tasks(.+)",
+          "reassembly_rules": [
+            "Which tasks in $2 are you focusing on? 📋",
+            "Are these tasks in $2 tagged with emojis yet? 🔗",
+            "How can I help organize the tasks in $2? 🛠️"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "emoji",
+      "rank": 8,
+      "rules": [
+        {
+          "memorise": false,
+          "decomposition_rule": "(.*)emoji (.+)",
+          "reassembly_rules": [
+            "Which emojis represent $2? 😊",
+            "Want to generate emoji tags for $2? 📚🔗",
+            "How do emojis help with $2? 🌟",
+            "Should we run the vectorizer for $2? 💻"
+          ]
+        },
+        {
+          "memorise": false,
+          "decomposition_rule": "(.*)emojis(.+)",
+          "reassembly_rules": [
+            "What do the emojis in $2 signify? 😊",
+            "Are these emojis for tasks or ontology terms? 📚",
+            "Let’s visualize $2 with emojis in the dashboard. 🖼️"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "cache",
+      "rank": 6,
+      "rules": [
+        {
+          "memorise": false,
+          "decomposition_rule": "(.*)cache (.+)",
+          "reassembly_rules": [
+            "Is the cache for $2 working well? 💾",
+            "Should we optimize caching for $2? 🔄",
+            "Want to switch to Redis for $2 caching? 🌐",
+            "How does caching impact $2 performance? 📈"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "dashboard",
+      "rank": 5,
+      "rules": [
+        {
+          "memorise": false,
+          "decomposition_rule": "(.*)dashboard (.+)",
+          "reassembly_rules": [
+            "What features do you want in the dashboard for $2? 🖼️",
+            "Should we add emoji filters to $2? 🖥️",
+            "How can the dashboard visualize $2? 📊",
+            "Let’s render $2 in Dioxus. 🚀"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "kanban",
+      "rank": 5,
+      "rules": [
+        {
+          "memorise": false,
+          "decomposition_rule": "(.*)kanban (.+)",
+          "reassembly_rules": [
+            "Want to sync $2 to the Kanban board? 📋",
+            "Which column should $2 go in? 🚧",
+            "Let’s automate $2 with GitHub Actions. 🔄",
+            "How does $2 fit in your workflow? ⭐"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ontology",
+      "rank": 7,
+      "rules": [
+        {
+          "memorise": false,
+          "decomposition_rule": "(.*)ontology (.+)",
+          "reassembly_rules": [
+            "How does the ontology for $2 work? 📚",
+            "Should we vectorize $2 with emojis? 🔗",
+            "What terms in $2 need tagging? 😊",
+            "Let’s map $2 to the knowledge graph. 🌐"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "vectorize",
+      "rank": 6,
+      "rules": [
+        {
+          "memorise": false,
+          "decomposition_rule": "(.*)vectorize (.+)",
+          "reassembly_rules": [
+            "Ready to vectorize $2 with the LLM? 🤖",
+            "Which emojis should we use for $2? 😊",
+            "Should we cache the vectors for $2? 💾",
+            "Let’s process $2 through the pipeline. 💻"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "llm",
+      "rank": 6,
+      "rules": [
+        {
+          "memorise": false,
+          "decomposition_rule": "(.*)llm (.+)",
+          "reassembly_rules": [
+            "How’s the LLM performing for $2? 🤖",
+            "Want to optimize LLM calls for $2? ⏳",
+            "Should we test the LLM on $2? 📝",
+            "Let’s generate emojis for $2 with the LLM. 😊"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "rust",
+      "rank": 4,
+      "rules": [
+        {
+          "memorise": false,
+          "decomposition_rule": "(.*)rust (.+)",
+          "reassembly_rules": [
+            "Awesome, coding $2 in Rust? 🦀",
+            "How’s the Rust code for $2 coming along? 💻",
+            "Should we debug $2 in Rust? 🔧",
+            "Let’s build $2 with Cargo. 📦"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "github",
+      "rank": 4,
+      "rules": [
+        {
+          "memorise": false,
+          "decomposition_rule": "(.*)github (.+)",
+          "reassembly_rules": [
+            "Want to sync $2 to GitHub? 🔗",
+            "Should we create an issue for $2? 📋",
+            "Let’s automate $2 with GitHub Actions. 🚀",
+            "How does $2 fit in your repo? 🌐"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "help",
+      "rank": 0,
+      "rules": [
+        {
+          "memorise": false,
+          "decomposition_rule": "(.*)help (.+)",
+          "reassembly_rules": [
+            "How can I assist with $2? 🛠️",
+            "Need help with tasks or $2? 📝",
+            "Should we run the CLI for $2? 💻",
+            "Let’s explore $2 in the dashboard. 🖼️"
+          ]
+        }
+      ]
+    }
+  ]
+}
