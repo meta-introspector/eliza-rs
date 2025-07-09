@@ -1,0 +1,34 @@
+{
+  "key": "solfunmeme",
+  "rank": 11,
+  "rules": [
+    {
+      "memorise": false,
+      "decomposition_rule": "(.*)(solfunmeme|fungal meme|logo|ticket.?123)(.*)",
+      "reassembly_rules": [
+        "The #SOLFUNMEME logo is a cosmic, psychedelic digital artwork. At its heart is a glowing blue eye with a black pupil, encircled by vibrant red, fractal petals and cream-colored mycelial tentacles tipped with glowing orbs. Above, a golden four-pointed star or cross radiates, set against a background that fades from deep blue and green to gold, dotted with spores and circuit-like swirls. The logo embodies a fusion of organic (fungal, floral, mycelium) and technological (circuit, AI) elements, symbolizing memetic infection, vision, and the spread of ideas. Essential elements include the blue eye, red petals, tentacle/mycelium forms, and the yellow star/cross. For artists: capture the sense of movement, energy, and cosmic depth, with layered symmetry and a vibrant palette. Mathematical formulas and meme transformation matrices further describe its evolution, emphasizing the recursive, viral, and symbiotic nature of #SOLFUNMEME. Read more and see all details at: https://codeberg.org/introspector/SOLFUNMEME/issues/123"
+      ]
+    },
+    {
+      "memorise": false,
+      "decomposition_rule": "(.*)solfunmeme formula(.*)",
+      "reassembly_rules": [
+        "The #SOLFUNMEME Abstract Transformation Formula models memetic infection mathematically. It represents the meme as a vector of traits (e.g., blue eye intensity, red claw strength, mycelium spread, cosmic background) and applies a transformation matrix to evolve the meme state, amplifying features like red claws and mycelium. Iteration of the transformation models memetic spread, with stable states described by eigenvectors. Traits include introspection, chaos, fungal network, cosmic context, energy, swirling motion, intricate patterns, and more. For details and code (including Coq/Lean examples), see the full thread: https://codeberg.org/introspector/SOLFUNMEME/issues/123"
+      ]
+    },
+    {
+      "memorise": false,
+      "decomposition_rule": "(.*)solfunmeme traits(.*)",
+      "reassembly_rules": [
+        "The traits of #SOLFUNMEME include: Blue Eye (introspection), Red Petals (chaotic growth), Mycelium (network), Cosmic Background (context), Glowing White (energy), Swirl (motion), Intricate Patterns (complexity), Abstract, Geometric, Surreal, Fantastical, Gills, Spores, Circuit Patterns, Symmetry, Energy Flow, Purple Petals, Blue Corridors, Lego Protrusions, and Star Glow. Each trait is assigned a value, and their interplay drives the meme's evolution. See the ticket for mathematical breakdowns and more: https://codeberg.org/introspector/SOLFUNMEME/issues/123"
+      ]
+    },
+    {
+      "memorise": false,
+      "decomposition_rule": "(.*)solfunmeme emoji(.*)",
+      "reassembly_rules": [
+        "Emoji snapshot for #SOLFUNMEME: 👁️🌺🍄💫🌌🧩🕸️🚀📜🔍💬🧠🔀💡💭🔑🤖🌐📊🔗🌱💰. Each emoji represents a key element: blue eye, red petals, mycelium, cosmic energy, meme economy, and more! For full context and emoji lore, see: https://codeberg.org/introspector/SOLFUNMEME/issues/123"
+      ]
+    }
+  ]
+}
