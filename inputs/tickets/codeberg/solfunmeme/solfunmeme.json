@@ -6,29 +6,72 @@
       "memorise": false,
       "decomposition_rule": "(.*)(solfunmeme|fungal meme|logo|ticket.?123)(.*)",
       "reassembly_rules": [
-        "The #SOLFUNMEME logo is a cosmic, psychedelic digital artwork. At its heart is a glowing blue eye with a black pupil, encircled by vibrant red, fractal petals and cream-colored mycelial tentacles tipped with glowing orbs. Above, a golden four-pointed star or cross radiates, set against a background that fades from deep blue and green to gold, dotted with spores and circuit-like swirls. The logo embodies a fusion of organic (fungal, floral, mycelium) and technological (circuit, AI) elements, symbolizing memetic infection, vision, and the spread of ideas. Essential elements include the blue eye, red petals, tentacle/mycelium forms, and the yellow star/cross. For artists: capture the sense of movement, energy, and cosmic depth, with layered symmetry and a vibrant palette. Mathematical formulas and meme transformation matrices further describe its evolution, emphasizing the recursive, viral, and symbiotic nature of #SOLFUNMEME. Read more and see all details at: https://codeberg.org/introspector/SOLFUNMEME/issues/123"
+        "The #SOLFUNMEME logo is a cosmic, psychedelic digital artwork. It centers on a glowing blue eye with a black pupil, surrounded by vibrant red, fractal petals and cream-colored mycelial tentacles tipped with glowing orbs. Above is a golden four-pointed star or cross, all set against a cosmic background fading from deep blues and greens to gold, dotted with spores and circuit-like swirls. The logo is a fusion of organic (fungal, floral, mycelium) and technological (circuit, AI) elements, symbolizing memetic infection, vision, and the spread of ideas. See all details and the mathematical transformation formula at: https://codeberg.org/introspector/SOLFUNMEME/issues/123"
       ]
     },
     {
       "memorise": false,
       "decomposition_rule": "(.*)solfunmeme formula(.*)",
       "reassembly_rules": [
-        "The #SOLFUNMEME Abstract Transformation Formula models memetic infection mathematically. It represents the meme as a vector of traits (e.g., blue eye intensity, red claw strength, mycelium spread, cosmic background) and applies a transformation matrix to evolve the meme state, amplifying features like red claws and mycelium. Iteration of the transformation models memetic spread, with stable states described by eigenvectors. Traits include introspection, chaos, fungal network, cosmic context, energy, swirling motion, intricate patterns, and more. For details and code (including Coq/Lean examples), see the full thread: https://codeberg.org/introspector/SOLFUNMEME/issues/123"
+        "The #SOLFUNMEME Abstract Transformation Formula models memetic infection mathematically: the meme is a vector of up to 20 traits (blue eye, red petals, mycelium, cosmic background, and more), amplified and mutated by a transformation matrix. Each iteration boosts key traits like the red claws and mycelium. This captures the evolution, recursion, and viral spread of the meme. Mathematical details and code samples are in the ticket: https://codeberg.org/introspector/SOLFUNMEME/issues/123"
       ]
     },
     {
       "memorise": false,
       "decomposition_rule": "(.*)solfunmeme traits(.*)",
       "reassembly_rules": [
-        "The traits of #SOLFUNMEME include: Blue Eye (introspection), Red Petals (chaotic growth), Mycelium (network), Cosmic Background (context), Glowing White (energy), Swirl (motion), Intricate Patterns (complexity), Abstract, Geometric, Surreal, Fantastical, Gills, Spores, Circuit Patterns, Symmetry, Energy Flow, Purple Petals, Blue Corridors, Lego Protrusions, and Star Glow. Each trait is assigned a value, and their interplay drives the meme's evolution. See the ticket for mathematical breakdowns and more: https://codeberg.org/introspector/SOLFUNMEME/issues/123"
+        "The full set of #SOLFUNMEME traits includes: Blue Eye (introspection), Red Petals/Fungal Body (chaotic growth), Mycelium (network), Cosmic Bg (context), Glowing White (energy), Swirling (motion), Intricate Patterns (complexity), Abstract (meta-level meaning), Geometric Shapes (immutable core), Surreal (beyond norms), Fantastical (imaginative), Gills (fungal structure), Spores (spread), Circuit Patterns (tech integration), Symmetry (balance), Energy Flow (dynamic propagation), Purple Petals (hidden layers), Blue Corridors (mycelial channels), Lego-like Protrusions (modularity), and Star Glow (cosmic energy). For the vector values and more details, see: https://codeberg.org/introspector/SOLFUNMEME/issues/123"
+      ]
+    },
+    {
+      "memorise": false,
+      "decomposition_rule": "(.*)solfunmeme trait (blue eye|red petals|mycelium|cosmic bg|glowing white|swirl|intricate patterns|abstract|geometric|surreal|fantastical|gills|spores|circuit patterns|symmetry|energy flow|purple petals|blue corridors|lego|star glow)(.*)",
+      "reassembly_rules": [
+        "Trait '$2': %TRAIT_DESCRIPTION%. For more, see the full discussion: https://codeberg.org/introspector/SOLFUNMEME/issues/123"
       ]
     },
     {
       "memorise": false,
       "decomposition_rule": "(.*)solfunmeme emoji(.*)",
       "reassembly_rules": [
-        "Emoji snapshot for #SOLFUNMEME: 👁️🌺🍄💫🌌🧩🕸️🚀📜🔍💬🧠🔀💡💭🔑🤖🌐📊🔗🌱💰. Each emoji represents a key element: blue eye, red petals, mycelium, cosmic energy, meme economy, and more! For full context and emoji lore, see: https://codeberg.org/introspector/SOLFUNMEME/issues/123"
+        "Emoji for #SOLFUNMEME: 👁️ (blue eye), 🌺 (red petals), 🍄 (mycelium/fungus), 💫 (star glow), 🌌 (cosmic background), 🧩 (modularity), 🕸️ (networks), 🚀 (energy), 📜 (lore), 🔍 (vision), 💬 (spread), 🧠 (introspection), 🔀 (transformation), 💡 (ideas), 💭 (thoughts), 🔑 (keys), 🤖 (tech), 🌐 (cosmos), 📊 (data), 🔗 (connection), 🌱 (growth), 💰 (economy). Each emoji maps to a trait or theme. See the ticket for the full breakdown!"
+      ]
+    },
+    {
+      "memorise": false,
+      "decomposition_rule": "(.*)solfunmeme vector(.*)",
+      "reassembly_rules": [
+        "The #SOLFUNMEME vector encodes all 20 traits numerically, e.g. [0.8 (Blue Eye), 0.7 (Red Petals), 0.5 (Mycelium), 0.6 (Cosmic Bg), 0.4 (Glowing White), 0.3 (Swirl), ...]. These values evolve under the transformation matrix, amplifying the meme's complexity and reach. Full vector and matrix details are in: https://codeberg.org/introspector/SOLFUNMEME/issues/123"
+      ]
+    },
+    {
+      "memorise": false,
+      "decomposition_rule": "(.*)solfunmeme code(.*)",
+      "reassembly_rules": [
+        "The #SOLFUNMEME ticket includes mathematical and code implementations in Coq and Lean, modeling memes as vectors and traits as functions. These capture the recursive symbiosis of traits and the transformation process. You can review the code snippets and explanations directly in the ticket: https://codeberg.org/introspector/SOLFUNMEME/issues/123"
       ]
     }
+  ],
+  "traits": [
+    {"name": "Blue Eye", "description": "Introspection and perception, the central vision."},
+    {"name": "Red Petals", "description": "Chaotic growth and hype, fractal fungal blooms."},
+    {"name": "Mycelium", "description": "Hidden network, organic memetic spread."},
+    {"name": "Cosmic Bg", "description": "Meta-context and cosmic energy, the background."},
+    {"name": "Glowing White", "description": "Energy and hype, glowing nodes."},
+    {"name": "Swirling", "description": "Dynamic motion, movement of forms."},
+    {"name": "Intricate Patterns", "description": "Complexity, fractal and lace-like detail."},
+    {"name": "Abstract", "description": "Meta-level meaning, evolving interpretation."},
+    {"name": "Geometric", "description": "Immutable core, structural shapes in the eye."},
+    {"name": "Surreal", "description": "Beyond conventional meme space, dreamlike."},
+    {"name": "Fantastical", "description": "Imaginative, magical potential."},
+    {"name": "Gills", "description": "Fungal structure, spore production."},
+    {"name": "Spores", "description": "Spread and propagation, memetic infection."},
+    {"name": "Circuit Patterns", "description": "Technological integration, AI themes."},
+    {"name": "Symmetry", "description": "Balance and harmonious structure."},
+    {"name": "Energy Flow", "description": "Dynamic propagation, movement of energy."},
+    {"name": "Purple Petals", "description": "Hidden layers, additional depth."},
+    {"name": "Blue Corridors", "description": "Channels or tunnels, mycelial paths."},
+    {"name": "Lego-like Protrusions", "description": "Modularity and connectivity."},
+    {"name": "Star Glow", "description": "Cosmic energy, mystical focus above the eye."}
   ]
 }
